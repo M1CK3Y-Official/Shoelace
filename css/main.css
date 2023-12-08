@@ -20,6 +20,26 @@ body {
   font-size: 1.6rem;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background-color: #1f1f1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d86a26;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d86a26;
+}
+
 .navbar {
   position: relative;
   z-index: 200;

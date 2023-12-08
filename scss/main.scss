@@ -18,6 +18,27 @@ body{
     font-size: 1.6rem;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px #ffffff99;
+    background-color: #1f1f1d;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $color-primary;
+    border-radius: 10px;
+  }
+  
+//   Handle on hover 
+  ::-webkit-scrollbar-thumb:hover {
+    background: $color-primary;
+  }
+
 
 
 // NAVIGATION

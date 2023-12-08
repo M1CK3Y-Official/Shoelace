@@ -1,0 +1,49 @@
+@mixin flexLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin noBO {
+    border: none;
+    outline: none;
+}
+
+@mixin width75center {
+    width: 75%;
+    margin: 0 auto;
+}
+
+@mixin btn($marginTop: 2.5rem, $borderRadius: 25rem) {
+    color: white;
+    @include noBO;
+    background-color: $color-primary;
+    // border-radius: 0.75rem;
+    border-radius: $borderRadius;
+    // margin-top: 2.5rem;
+    margin-top: $marginTop;
+}
+
+@mixin textStyles($transform: uppercase) {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: $transform;
+}
+
+@mixin centering($topValue) {
+    position: absolute;
+    top: $topValue;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin aspectRatio($width) {
+    width: $width;
+    aspect-ratio: 1;
+}

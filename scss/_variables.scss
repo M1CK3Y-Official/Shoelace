@@ -1,0 +1,48 @@
+//_BASE.SCSS
+$color-primary: #d86a26;
+$color-dark: #1f1d1f;
+// $color-secondary: #bbb;
+
+$font-header-sm: 7.5rem;
+$font-header-md: 12.5rem;
+$font-header-lg: 17rem;
+
+$font-sb-header-sm: 2.5rem;
+$font-sb-header-md: 4rem;
+$font-sb-header-lg: 6rem;
+
+$logo-sm: 5rem;
+$logo-md: 7.5rem;
+$logo-lg: 10rem;
+
+$font-btn-sm: 1.5rem;
+$font-btn-md: 2.5rem;
+$font-btn-lg: 4rem;
+
+$font-about-header-sm: 5rem;
+$font-about-header-md: 7.5rem;
+$font-about-header-lg: 9rem;
+
+$font-about-body-sm: 1.6rem;
+$font-about-body-md: 2rem;
+$font-about-body-lg: 2.5rem;
+
+$font-copyright-sm: 1.4rem;
+$font-copyright-md: 2rem;
+$font-copyright-lg: 2.5rem;
+
+
+$footer-header-sm: 5rem;
+$footer-header-md: 7.5rem;
+$footer-header-lg: 10rem;
+
+
+$socials-sm: 3.5rem;
+$socials-md: 5rem;
+$socials-lg: 7rem;
+
+
+%fullSpace {
+    width: 100%;
+    height: 100%;
+}

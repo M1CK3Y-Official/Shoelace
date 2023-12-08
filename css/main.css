@@ -158,6 +158,11 @@ body {
   border-radius: 25rem;
   margin-top: 2.5rem;
 }
+@media screen and (min-width: 768px) {
+  .header .btn-link .btn-shop:hover {
+    background-color: #ad551e;
+  }
+}
 @media screen and (max-width: 576px) {
   .header .btn-link .btn-shop {
     font-size: 1.5rem;
@@ -340,6 +345,11 @@ body {
   height: 35px;
   font-size: 1.5rem;
 }
+@media screen and (min-width: 768px) {
+  .shop .product .btn-atc:hover {
+    background-color: #ad551e;
+  }
+}
 .shop-heading {
   font-size: 7.5rem;
 }
@@ -395,6 +405,11 @@ body {
   height: 35px;
   font-size: 1.5rem;
 }
+@media screen and (min-width: 768px) {
+  .contact .btn-send:hover {
+    background-color: #ad551e;
+  }
+}
 
 .footer {
   background-color: #fff;
@@ -446,6 +461,11 @@ body {
   text-decoration: none;
   color: #d86a26;
   font-size: 5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer .socials .social-list-link:hover {
+    color: #ad551e;
+  }
 }
 @media screen and (max-width: 576px) {
   .footer .socials .social-list-link {

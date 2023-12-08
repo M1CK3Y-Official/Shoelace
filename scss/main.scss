@@ -439,6 +439,8 @@ body{
                 color: $color-primary;
                 font-size: $socials-md;
 
+                @include socials;
+
                 @media screen and (max-width: 576px) {
                     font-size: $socials-sm;
                 }

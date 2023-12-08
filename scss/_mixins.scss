@@ -26,12 +26,26 @@
     background-color: $color-primary;
     border-radius: $borderRadius;
     margin-top: $marginTop;
+
+    @media screen and (min-width: 768px) {
+        &:hover {
+            background-color: darken($color-primary, 10%);
+        }
+    }
 }
 
 @mixin textStyles($transform: uppercase) {
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: $transform;
+}
+
+@mixin socials {
+    @media screen and (min-width: 768px) {
+        &:hover {
+            color: darken($color-primary, 10%);
+        }
+    }
 }
 
 @mixin centering($topValue) {

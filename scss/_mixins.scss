@@ -24,9 +24,7 @@
     color: white;
     @include noBO;
     background-color: $color-primary;
-    // border-radius: 0.75rem;
     border-radius: $borderRadius;
-    // margin-top: 2.5rem;
     margin-top: $marginTop;
 }
 

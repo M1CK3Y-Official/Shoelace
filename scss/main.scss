@@ -31,8 +31,8 @@ body{
         &-right {
             width: 50vw;
             height: 100vh;
-            background-color: #1f1d1fdd;
-            border-left: solid #d86a26 5px;
+            background-color: $color-dark;
+            border-left: solid $color-primary 5px;
             position: fixed;
             right: -50vw;
             @include flexLayout;
@@ -82,7 +82,7 @@ body{
         &-line {
             width: 100%;
             height: 4px;
-            // background-color: #d86a26;
+            // background-color: $color-primary;
             background-color: white;
             border-radius: 25rem;
             
@@ -200,7 +200,7 @@ body{
     height: auto;
     min-height: 25vh;
     width: 100vw;
-    background-color: #d86a26;
+    background-color: $color-primary;
     padding: 5rem 0;
 
     .body {
@@ -208,7 +208,8 @@ body{
         background-color: rgba(0, 0, 0, 0.05);
         padding: 1.5rem;
         font-weight: 300;
-        border-top: 7.5px solid #ed945d;
+        border-top: 7.5px solid $color-secondary;
+        border-bottom: 7.5px solid $color-secondary;
         border-radius: 0.75rem;
 
         .text {
@@ -244,7 +245,7 @@ body{
 .shop {
     height: auto;
     width: 100vw;
-    background-color: #ed945d;
+    background-color: $color-secondary;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -343,7 +344,7 @@ body{
 
 // CONTACT
 .contact {
-    // background-color: #1f1d1fdd;
+    // background-color: $color-dark;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/contact.jpg);
     @include background;
     height: auto;
@@ -381,9 +382,9 @@ body{
 // FOOTER
 .footer {
     height: auto;
-    // background-color: #ed945d;
+    // background-color: $color-secondary;
     background-color: #fff;
-    border-top: 1rem solid #d86a26;
+    border-top: 1rem solid $color-primary;
     padding: 2.5rem;
 
     .copyright {
@@ -426,7 +427,7 @@ body{
 
             &-link {
                 text-decoration: none;
-                color: #d86a26;
+                color: $color-primary;
                 font-size: $socials-md;
 
                 @media screen and (max-width: 576px) {
